@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root{
+  --body-color : #1B1717;
+  --main-color : #810000;
+  --second-color : #EEEBDD;
+
+  --main-font : 'Poppins', sans-serif;
+
+}
+
+body{
+  background-color: var(--body-color);
+  font-family: var(--main-font);
+
+}
+
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+section{
+  /* margin-top: 134px; */
+  /* margin-left: 100px; */
+}
+
+.container{
+  max-width: 1500px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.navbar{
+  /* background-color: wheat; */
+  /* margin-left: 100px; */
+  /* margin-right: 156px; */
+
+}
+
+.navbar .nav-wrapper{
+/* background-color: violet; */
+/* margin: auto; */
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 90px;
+}
+
+.nav-wrapper .logo{
+  width: 225px;
+  height: 60px;
+}
+
+.nav-wrapper .menu-wrapper{
+  display: flex;
+}
+
+.nav-wrapper .menu-wrapper .menu{
+display: flex;
+gap: 22px;
+/* background-color: yellow; */
+}
+
+.menu-wrapper .menu .menu-link{
+  font-size: 20px;
+  color: var(--second-color);
+  font-family: var(--main-font);
+  font-weight: 200;
+}
+.menu-wrapper .menu .menu-link.active{
+  font-weight: 700;
+  color: var(--main-color);
+}
+.home{
+  /* margin: 0px; */
+  display: flex;
+  justify-content: space-between;
+}
+.home-wrapper{
+  margin-top: 134px;
+}
+.home-wrapper .welcome{
+  width: 213px;
+  height: 30px;
+  /* left: 100px; */
+  top: 222px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #EEEBDD;
+}
+.home-wrapper .heading{
+  width: 363px;
+height: 156px;
+/* left: 98px; */
+top: 252px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 52px;
+line-height: 78px;
+
+color: #810000;
+}
+
+.home-wrapper .deskripsi{
+  width: 533px;
+height: 90px;
+/* left: 100px; */
+top: 408px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+display: flex;
+align-items: center;
+
+color: #EEEBDD;
+}
+
+.order-btn{
+  margin-top: 40px;
+  width: 160px;
+padding-top: 10px;
+padding-bottom: 10px;
+background: #810000;
+border-radius: 57px;
+text-align: center;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+color: #EEEBDD;
+
+}
+
+
